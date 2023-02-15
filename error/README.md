@@ -7,7 +7,7 @@ mvn deploy:deploy-file -DgroupId=com.mbp.eng -DartifactId=common.error -Dversion
 
 release:
 ```bash
-mvn deploy:deploy-file -DgroupId=com.mbp.eng -DartifactId=common.error -Dversion=1.0.0 -Dpackaging=jar -Dfile=./target/common.error-1.0.0-SNAPSHOT.jar -Durl=http://xxx.xxx.com/releases/ -DrepositoryId=releases
+mvn deploy:deploy-file -DgroupId=com.mbp.eng -DartifactId=common.error -Dversion=1.0.0-SNAPSHOT -Dpackaging=jar -Dfile=./target/common.error-1.0.0-SNAPSHOT.jar -Durl=http://xxx.xxx.com/releases/ -DrepositoryId=releases
 ```
 
 ## 错误处理

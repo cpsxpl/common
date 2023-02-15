@@ -7,5 +7,5 @@ mvn deploy:deploy-file -DgroupId=com.mbp.eng -DartifactId=common.util -Dversion=
 
 release:
 ```bash
-mvn deploy:deploy-file -DgroupId=com.mbp.eng -DartifactId=common.util -Dversion=1.0.0 -Dpackaging=jar -Dfile=./target/common.util-1.0.0-SNAPSHOT.jar -Durl=http://xxx.xxx.com/releases/ -DrepositoryId=releases
+mvn deploy:deploy-file -DgroupId=com.mbp.eng -DartifactId=common.util -Dversion=1.0.0-SNAPSHOT -Dpackaging=jar -Dfile=./target/common.util-1.0.0-SNAPSHOT.jar -Durl=http://xxx.xxx.com/releases/ -DrepositoryId=releases
 ```
